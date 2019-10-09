@@ -7,7 +7,7 @@ HunterGate(
     SHA1 "9a3594a61227967fb92159339ba326701b287b19"
 )
 
-set( HUNTER_ROOT ${CMAKE_BINARY_DIR}/hunterroot )
+set( HUNTER_GATE_ROOT ${CMAKE_BINARY_DIR}/hunterroot )
 project(test)
 set( HUNTER_STATUS_DEBUG ON)
 hunter_add_package( freetype )
