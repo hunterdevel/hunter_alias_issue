@@ -29,3 +29,5 @@ tmp/hunterbugtest/build_hunter_alias_issue/hunterroot/_Base/9a3594a/511a137/4840
 Call Stack (most recent call first):
   CMakeLists.txt:36 (find_package)
 ```
+
+[![Build Status](https://travis-ci.com/hunterdevel/hunter_alias_issue.svg?branch=master)](https://travis-ci.com/hunterdevel/hunter_alias_issue)
