@@ -21,7 +21,7 @@ cd build_hunter_alias_issue && \
 cmake ../hunter_alias_issue; cd /tmp
 ```
 
-Example error:
+Example error (cmake <3.11):
 ```
 tmp/hunterbugtest/build_hunter_alias_issue/hunterroot/_Base/9a3594a/511a137/48401e9/Install/lib/cmake/ZLIB/ZLIBConfig.cmake:36 (add_library):
   add_library cannot create ALIAS target "ZLIB::ZLIB" because target
