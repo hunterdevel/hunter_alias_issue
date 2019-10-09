@@ -1,7 +1,9 @@
 Hunter ALIAS target issue demo with older cmake versions.
 ===
 
-cmake versions lower than 3.11 do not support ALIAS of imported targets that are now used by Hunter. 
+Hunter commit: [ccf74c7](https://github.com/cpp-pm/hunter/commit/ccf74c7c2d2c1b9442a6863ca232a252e35720fb)
+
+Cmake versions lower than 3.11 do not support ALIAS of imported targets that are now used by Hunter. 
 
 Hunter documentation needs to be updated to indicate:
 
@@ -35,6 +37,6 @@ Call Stack (most recent call first):
   CMakeLists.txt:36 (find_package)
 ```
 
-Travis:
+Travis failinig demonstration:
 ---
 [![Build Status](https://travis-ci.com/hunterdevel/hunter_alias_issue.svg?branch=master)](https://travis-ci.com/hunterdevel/hunter_alias_issue)
