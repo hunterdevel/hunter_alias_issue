@@ -11,7 +11,12 @@ Hunter documentation needs to be updated to indicate:
 cmake_minimum_required(VERSION 3.11)
 ```
 
+Travis failure:
+---
+[![Build Status](https://travis-ci.com/hunterdevel/hunter_alias_issue.svg?branch=master)](https://travis-ci.com/hunterdevel/hunter_alias_issue)
+
 Quick test:
+---
 ```bash
 cd /tmp &&\
 wget -O cmake.sh https://cmake.org/files/v3.10/cmake-3.10.3-Linux-x86_64.sh &&\ 
@@ -37,6 +42,4 @@ Call Stack (most recent call first):
   CMakeLists.txt:36 (find_package)
 ```
 
-Travis failinig demonstration:
----
-[![Build Status](https://travis-ci.com/hunterdevel/hunter_alias_issue.svg?branch=master)](https://travis-ci.com/hunterdevel/hunter_alias_issue)
+
