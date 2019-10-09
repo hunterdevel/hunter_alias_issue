@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.2)
 
+
+set( HUNTER_GATE_ROOT ${CMAKE_BINARY_DIR}/hunterroot )
+
 include(cmake/HunterGate.cmake)
 
 HunterGate(
@@ -7,7 +10,6 @@ HunterGate(
     SHA1 "9a3594a61227967fb92159339ba326701b287b19"
 )
 
-set( HUNTER_GATE_ROOT ${CMAKE_BINARY_DIR}/hunterroot )
 project(test)
 set( HUNTER_STATUS_DEBUG ON)
 hunter_add_package( freetype )
