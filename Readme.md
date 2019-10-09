@@ -10,15 +10,20 @@ cmake_minimum_required(VERSION 3.11)
 ```
 
 Quick test:
-```
-cd /tmp && \
+```bash
+cd /tmp &&\
+wget -O cmake.sh https://cmake.org/files/v3.10/cmake-3.10.3-Linux-x86_64.sh &&\ 
+mkdir -p cmakebin &&\
+sudo sh cmake.sh --skip-license --exclude-subdir --prefix=`pwd`/cmakebin &&\
 rm -rf hunterbugtest && \
 mkdir -p hunterbugtest && \
 cd hunterbugtest && \
 git clone https://github.com/hunterdevel/hunter_alias_issue.git && \
-mkdir -p build_hunter_alias_issue && \
-cd build_hunter_alias_issue && \
-cmake ../hunter_alias_issue; cd /tmp
+mkdir -p build && \
+cd build && \
+/tmp/cmakebin/bin/cmake ../hunter_alias_issue; cd /tmp
+
+
 ```
 
 Example error (cmake <3.11):
