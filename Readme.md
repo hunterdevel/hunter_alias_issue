@@ -1,4 +1,4 @@
-Hunter ALIAS target issue demo with old cmake.
+Hunter ALIAS target issue demo with older cmake versions.
 ===
 
 cmake versions lower than 3.11 do not support ALIAS of imported targets that are now used by Hunter. 
