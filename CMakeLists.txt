@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 
 
-set( HUNTER_GATE_ROOT ${CMAKE_BINARY_DIR}/hunterroot )
+set( HUNTER_ROOT ${CMAKE_BINARY_DIR}/hunterroot )
 
 include(cmake/HunterGate.cmake)
 
