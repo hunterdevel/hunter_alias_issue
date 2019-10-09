@@ -30,4 +30,6 @@ Call Stack (most recent call first):
   CMakeLists.txt:36 (find_package)
 ```
 
+Travis:
+---
 [![Build Status](https://travis-ci.com/hunterdevel/hunter_alias_issue.svg?branch=master)](https://travis-ci.com/hunterdevel/hunter_alias_issue)
